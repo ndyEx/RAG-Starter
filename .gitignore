@@ -1,0 +1,155 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+__pypackages__/
+
+# ========================
+# Next.js
+# ========================
+.next/
+out/
+.vercel
+
+# ========================
+# Build / Production
+# ========================
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ========================
+# Python - Byte-compiled / optimized
+# ========================
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# ========================
+# Python - Distribution / Packaging
+# ========================
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# ========================
+# Python - Virtual Environments
+# ========================
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================
+# Testing / Coverage
+# ========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+.nyc_output
+
+# ========================
+# Vector DB / Data
+# ========================
+*.db
+*.sqlite3
+chroma_db/
+chromadb/
+qdrant_storage/
+weaviate_data/
+milvus_data/
+faiss_index/
+lancedb/
+*.index
+*.pkl
+*.parquet
+
+# ========================
+# ML / Models
+# ========================
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# IDE / Editor
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pip-log.txt
+
+# ========================
+# Misc
+# ========================
+*.rdb
+*.aof
+*.pid
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+cython_debug/
+.ipynb_checkpoints
+.pypirc
