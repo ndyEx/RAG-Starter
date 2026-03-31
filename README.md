@@ -9,7 +9,7 @@
 
 ```mermaid
 graph TD
-    User([사용자]) --> |"005930" or "AAPL" 검색| Frontend
+    User([사용자]) --> |005930 or AAPL 검색| Frontend
     Frontend[Next.js Client<br>React + Tailwind] -->|API 프록시 요청| Backend
     
     subgraph Python RAG Server
