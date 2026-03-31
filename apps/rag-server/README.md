@@ -18,10 +18,10 @@ uv run uvicorn app.main:app --reload --port 8000
 
 ## API 엔드포인트
 
-| Method | Path | 설명 |
-|--------|------|------|
-| GET | `/health` | 헬스체크 |
-| POST | `/api/chat` | RAG 기반 채팅 |
+| Method | Path        | 설명          |
+| ------ | ----------- | ------------- |
+| GET    | `/health`   | 헬스체크      |
+| POST   | `/api/chat` | RAG 기반 채팅 |
 
 ## API 문서
 
