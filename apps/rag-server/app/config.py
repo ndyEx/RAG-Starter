@@ -18,5 +18,9 @@ class Settings:
 
     CORS_ORIGINS: list[str] = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
 
+    # News API (추후 실제 API 연결 시 사용)
+    NEWS_API_URL: str = os.getenv("NEWS_API_URL", "")
+    NEWS_API_KEY: str = os.getenv("NEWS_API_KEY", "")
+
 
 settings = Settings()
